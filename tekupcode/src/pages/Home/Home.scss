@@ -1,0 +1,28 @@
+.project-list {
+    padding: 50px 15px;
+
+    .project-list_tab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .project-list_tab-item{
+            padding-right: 10px;
+        }
+
+        .btn-project-tab{
+            font-size: 18px;
+            font-weight: 600;
+            color: #212529;
+        }
+
+        .btn-project-tab.active{
+            background: #F8D000;
+            color: #212529;
+            box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .15);
+        }
+
+    }
+    
+}
+
