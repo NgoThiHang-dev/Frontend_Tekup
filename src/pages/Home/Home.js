@@ -145,11 +145,11 @@ const Home = () => {
           </button>
         </div>
         <div>
-          <MessengerCustomerChat
+          {/* <MessengerCustomerChat
             pageId="106438885770017"
             appId="248357387639174"
           // htmlRef="<REF_STRING>"
-          />
+          /> */}
         </div>
       </div>
     </div>
