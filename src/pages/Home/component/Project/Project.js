@@ -13,7 +13,7 @@ const Project = () => {
         <div className="project">
             <div className="row">
                 <div className="col-12 col-md-6 col-lg-4 mb-4 wow fadeInLeft" data-wow-duration="1.5s">
-                    <Link href="#" className="project-link project-card">
+                    <Link to="#" className="project-link project-card">
                         <div className="project-item">
                             <img src={image1} alt="" className="project-item_image" />
                             <div className="project-item_body">
@@ -26,7 +26,7 @@ const Project = () => {
                     </Link>
                 </div>
                 <div className="col-12 col-md-6 col-lg-4 mb-4 wow fadeInLeft" data-wow-duration="1.5s">
-                    <Link href="#" className="project-link">
+                    <Link to="#" className="project-link">
                         <div className="project-item">
                             <img src={image2} alt="" className="project-item_image" />
                             <div className="project-item_body">
@@ -39,7 +39,7 @@ const Project = () => {
                     </Link>
                 </div>
                 <div className="col-12 col-md-6 col-lg-4 mb-4 wow fadeInLeft" data-wow-duration="1.5s">
-                    <Link href="#" className="project-link">
+                    <Link to="#" className="project-link">
                         <div className="project-item">
                             <img src={image3} alt="" className="project-item_image" />
                             <div className="project-item_body">
@@ -52,7 +52,7 @@ const Project = () => {
                     </Link>
                 </div>
                 <div className="col-12 col-md-6 col-lg-4 mb-4 wow fadeInLeft" data-wow-duration="1.5s">
-                    <Link href="#" className="project-link">
+                    <Link to="#" className="project-link">
                         <div className="project-item">
                             <img src={image4} alt="" className="project-item_image" />
                             <div className="project-item_body">
@@ -65,7 +65,7 @@ const Project = () => {
                     </Link>
                 </div>
                 <div className="col-12 col-md-6 col-lg-4 mb-4 wow fadeInLeft" data-wow-duration="1.5s">
-                    <Link href="#" className="project-link">
+                    <Link to="#" className="project-link">
                         <div className="project-item">
                             <img src={image5} alt="" className="project-item_image" />
                             <div className="project-item_body">
