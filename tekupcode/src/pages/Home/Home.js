@@ -1,8 +1,38 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Home.scss";
 import Project from "./component/Project/Project";
+import { AiOutlineUp } from "react-icons/ai";
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 const Home = () => {
+  const [isShowScollToTop, setIsShowScollToTop] = useState(false);
+
+  const handleBackToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    if (position > 50) {
+      setIsShowScollToTop(true);
+    }
+    if (position < 50) {
+      setIsShowScollToTop(false);
+    }
+  };
+
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <div className="wrapper-home">
       <div className="container">
@@ -107,6 +137,20 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <div>
+          <button className="btn rounded-circle back-to-top"
+            onClick={handleBackToTop}
+            style={isShowScollToTop ? { display: "block" } : { display: "none" }}>
+            <AiOutlineUp className="icons-btn-top" />
+          </button>
+        </div>
+        <div>
+          <MessengerCustomerChat
+            pageId="106438885770017"
+            appId="248357387639174"
+          // htmlRef="<REF_STRING>"
+          />
+        </div>
       </div>
     </div>
   );

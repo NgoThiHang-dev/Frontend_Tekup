@@ -19,7 +19,7 @@ const Project = () => {
                             <div className="project-item_body">
                                 <div className="d-flex justify-content-between align-items-center">
                                     <h6 className="project-item_body-name">TOI 3D Customize E-commerce</h6>
-                                    <AiOutlineRight />
+                                    <AiOutlineRight className="icons-btn-right" />
                                 </div>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ const Project = () => {
                             <div className="project-item_body">
                                 <div className="d-flex justify-content-between align-items-center">
                                     <h6 className="project-item_body-name">E-learning – Internal training platform</h6>
-                                    <AiOutlineRight />
+                                    <AiOutlineRight className="icons-btn-right" />
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ const Project = () => {
                             <div className="project-item_body">
                                 <div className="d-flex justify-content-between align-items-center">
                                     <h6 className="project-item_body-name">Summer 21 Cosmetic E-commerce Platform</h6>
-                                    <AiOutlineRight />
+                                    <AiOutlineRight className="icons-btn-right" />
                                 </div>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ const Project = () => {
                             <div className="project-item_body">
                                 <div className="d-flex justify-content-between align-items-center">
                                     <h6 className="project-item_body-name">Kiva – Ambition to digital transformation in the brokerage assiduity</h6>
-                                    <AiOutlineRight />
+                                    <AiOutlineRight className="icons-btn-right" />
                                 </div>
                             </div>
                         </div>
@@ -71,7 +71,7 @@ const Project = () => {
                             <div className="project-item_body">
                                 <div className="d-flex justify-content-between align-items-center">
                                     <h6 className="project-item_body-name">Boxgo – Professional Warehouse Management</h6>
-                                    <AiOutlineRight />
+                                    <AiOutlineRight className="icons-btn-right" />
                                 </div>
                             </div>
                         </div>

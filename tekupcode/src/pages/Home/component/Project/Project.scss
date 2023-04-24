@@ -50,8 +50,13 @@
         // text-overflow: ellipsis;
     }
 
+    .icons-btn-right{
+        font-size:14px;
+        width: 20px;
+    }
+
     &:hover{
-        color: white;
+        // color: white;
         background: $bg-primary;
         transition: all linear 0.15s;
     }
